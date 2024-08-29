@@ -43,23 +43,33 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+
+
+
+the line players have less pushups than the skilled players by atleast 20 pushups.
+
 ### Numerical Descriptive Results
-<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+so the median shows that the skilled players have at least a 33 difference than the line players showing that the line players are more push ups than the skilled player
+
+
+
+
 
 ## Inferential Results
 
-
-
+```{r}
+t.test(pushups~position,data=mydata)
+```
+the probability we get is p-value 0.000009421 i think the skill players are doing a lot more pushups than the line players.
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+ I grabbed the code from the helper files for my graphical data. i edited the code to "my data" so the program can get the data from my files to input into the program, and with that it made a graph that showed the difference between skilled players and line players, the graph had at least a tiny difference from the skilled players and the line players because the skilled players had at least 20 more push ups then the line players, then i took the same code and used it for the infarential results that show the exact ammount of how much less pushups the line players perform then the skilled
 
-```{r}
-t.test(pushups~position,data=mydata)
-```
-The probability we get p-value is 0.000009421
+
