@@ -53,7 +53,7 @@ the line players have less pushups than the skilled players by atleast 20 pushup
 favstats(pushups~position,data=mydata)
 ```
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
-so the median shows that the skilled players have at least a 33 difference than the line players showing that the line players are more push ups than the skilled player
+so the median shows that the skilled players have at least a 33 difference than the line players showing that the line players are more push ups than the skilled player 
 
 
 
