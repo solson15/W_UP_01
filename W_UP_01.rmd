@@ -64,7 +64,7 @@ so the median shows that the skilled players have at least a 33 difference than 
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-the probability we get is p-value 0.000009421 i think the skill players are doing a lot more pushups than the line players.
+the probability we get is p-value 0.000009421 i think the skill players are doing a lot more pushups than the line players.  
 
 
 # Discussion and Conclusion
